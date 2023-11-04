@@ -16,9 +16,8 @@ import { Component } from '@angular/core';
 //export and declare appcomponent class
 export class AppComponent {
 
-  //create variable to see if user is logged in and set to true
-  isLoggedIn: boolean = true;
+
 
   //declare variable to hold the assignment name
-  assignment = 'Exercise 2.3: Data Binding';
+  assignment = 'Secure Profile App';
 }
