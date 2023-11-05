@@ -1,0 +1,45 @@
+<!--
+  app.component.html
+  Danielle Taplin
+  10/27/23
+  code for my enhanced profile app
+-->
+
+<!--main nav bar-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+  <ul class="navbar-nav">
+
+    <li class="nav-item active">
+  <a class="nav-link" href="#">Home</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+            </li>
+
+  </ul>
+
+  </nav>
+
+<!--main container with assignment name-->
+<div role="main" class="container">
+  <br /><br />
+
+  <h2>Exercise 3.3 Passing Data to Routes Part 2</h2>
+
+  <br /><br />
+
+
+      <!--if user is logged in, display image -->
+      <app-my-image></app-my-image>
+    </div>
+
+    <div class="col-sm-6 my-auto">
+      <!--if the user is logged in, display details-->
+      <app-my-details></app-my-details>
+    </div>

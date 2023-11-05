@@ -1,0 +1,31 @@
+<!--
+Danielle Taplin
+signin.component.html
+11/4/23
+signin component
+-->
+
+<!--create card holding form as a container with title-->
+<div class="card signin-container">
+  <div class="card-body">
+    <h3 class="card-title">Sign in</h3>
+    <form class="card-text">
+      <!--form group for username input-->
+      <div class="form-group mb-4">
+        <label for="txtUserName">Username</label>
+        <input type="text" class="form-control" id="txtUserName" placeholder="Enter username" />
+      </div>
+
+      <!--form group for password input-->
+      <div class="form-group">
+        <label for="txtPassword">Password</label>
+        <input type="password" class="form-control" id="txtPassword" placeholder="Enter your password" />
+      </div>
+
+      <!--form group for submit button-->
+      <div class="form-group">
+        <button class="btn btn-primary float-end mt-lg-3" (click)="signin()">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
